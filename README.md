@@ -1,4 +1,14 @@
+## My S3 buckets
+
+- Public bucket: https://public-qrp3bq.s3.amazonaws.com/index.html
+- Secret bucket (presigned link to Walden)[pg205.txt]: https://secret-qrp3bq.s3.amazonaws.com/pg205.txt?AWSAccessKeyId=ASIAT3FBJHTTCSOP3MIE&Signature=HvYqRKLxIgYN9RoXEYpk1NUMsEc%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD0GaVVQutpR%2FXvtSJGF308Sy9ww3SunIsyYR9cTd9PmQIgL77C6rQxcgCbnh%2FABi%2Fal%2Feh8GFeFBuUkZ9hQVgXWooqrQIIYhAAGgwyNjQ0Nzg3MzU1OTAiDJb6O4Tkm33MOHXSFyqKAnCqDAe6h2et0n9hONymvkK89HQlCfviz1IGqtPtDNXklOOdNL1NBp%2BqkmXre%2Fx64vVCsGxg2xIQVVr1%2BDG6oT%2Be6RQbb2lo3oxp9UgMwCO7Aq%2BSiDfC%2FCcfnHcLNicbKlae4UVzjTeIn0alau7H0rHB5%2FNXfI%2F%2FKwsX6Ll2k8rpoi822pW6nG7UBwd9130WTFYS9dl6syDEHpQZsDiEPYx3W6aZztytNiB3vGptJ6hrF1fVTpJThrozsLKjNfsfDj2gTfESZwbEW8g6VIzTRulUMpu%2F2n4tBhIwTDoXONYRqvyEF2tJW3KAeMa4P6%2FM%2Fy2pFZkMwMrm%2B7c8mze0miagCeMlm9Hv%2FL6TMKXo49YGOp0BbCGSPbDsk2tzHT4WQXRGABqEZva4KmOfIPVotcN%2B0Bsfa9d6ptqSuwwW9jhIGx9MTiJ678M3W0yH%2Fbf8fuPsQdPW%2By670AxPT0Htj6PHpqJ96cCWfAPBNe42fT2vvpVzb6PXlLPxgDxmqap%2F3yLFNCx5V1BirgPNs268%2BsuxGXr5BkFT1zweDJbW1BOgevilIEPFTiZmIXjxO%2BDg2A%3D%3D&Expires=1793216122
+
+I would choose a public bucket for data that anyone should be able to read, like a shared book collection or a website. I would use a presigned URL to share a single private object with someone for a limited time, without making the bucket public or giving them an AWS account.
+
 # Lab 06: Working with S3 Storage
+
+I would choose a public bucket for data that anyone should be able to read, like a shared book collection or a website. I would use a presigned URL to share a single private object with someone for a limited time, without making the bucket public or giving them an AWS account.
+
 
 The goal of this lab is to get you comfortable with **Amazon S3** object storage, building on what you have learned about the command line, AWS accounts, and scripting. You will stage a collection of 100 books from [Project Gutenberg](https://www.gutenberg.org/) in a **public** bucket that anyone can browse in a web browser, and share a single book from a **private** bucket with a time-limited presigned URL.
 
